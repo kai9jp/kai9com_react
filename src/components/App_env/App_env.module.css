@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+  background-color: rgba(245, 245, 245, 0);
+  margin: 0 auto; 
+}
+
+.btnBlack {
+  background-color: rgb(0, 0, 0);
+  border-color: indianred;
+  margin-left: 30px;
+  opacity: 0.7;
+}
+
+.PasswordReveal {
+  left: auto;
+  position: absolute;
+  right: -10px;
+  top: 40px;
+}
+
+
+
+
+
+.blueBoldText {
+  color: blue;
+  font-weight: bold;
+}
