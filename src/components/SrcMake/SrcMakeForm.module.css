@@ -1,0 +1,58 @@
+.blueText {
+  color: blue;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+}
+
+.buttonAllCheck {
+  background-color: rgb(204, 204, 231);
+  margin-bottom: 3%; 
+  height: 36px;
+}
+
+/* syori1.module.css */
+.stickyHeader {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  background-color: #fff !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
